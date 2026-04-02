@@ -1,0 +1,22 @@
+{
+  "name": "tax-marketplace",
+  "owner": {
+    "name": "Fangyi-Chen"
+  },
+  "metadata": {
+    "description": "Marketplace for AI-powered tax filing plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "super-cpa-us-tax",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Fangyi-Chen/super-cpa-us-tax.git"
+      },
+      "description": "AI tax filing assistant — interactive interview, document import (W2/1099), federal tax calculation, and mail-ready IRS Form 1040 PDF generation.",
+      "version": "0.1.0",
+      "strict": true
+    }
+  ]
+}
